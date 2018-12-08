@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="icon" type="image/x-icon" href="{{ url_for('static',filename='images/favicon.png')}}" />
+		<link rel="icon" type="image/png" href="{{ url_for('static',filename='images/favicon.png')}}" />
+    <title>RaspberryCar</title>
+  </head>
+  <body>
+  	<header>
+  		<navbar>
+  			<ul>
+  				<li><a href="/forward">Forward</a></li>
+  				<li><a href="/backward">Backward</a></li>
+  				<li><a href="/left">Left</a></li>
+  				<li><a href="/right">Right</a></li>
+  			</ul>
+  		</navbar>
+  	</header>
+    <h1>RaspberryCar v1.0 - Victor Ribeiro</h1>
+    <center>
+       <script src="{{ url_for('static',filename='assets/js/main.js')}}"></script>
+    </center>
+  </body>
+</html>
