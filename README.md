@@ -1,6 +1,6 @@
 # raspberryCar
 
-A raspberry pi on wheels. 
+A raspberry pi on wheels. See it working below.
 
 [![groupImg](http://img.youtube.com/vi/4IDLDofuuLc/0.jpg)](http://www.youtube.com/watch?v=4IDLDofuuLc)
 
